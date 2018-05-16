@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="lib/normalize.css/normalize.css">
+	<link rel="stylesheet" href="lib/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="fonts/fontawesome-free-5.0.12/web-fonts-with-css/fontawesome-all.min.css"> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/main.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<header class="header">
+		<div class="header__color-layer">
+		<div class="header__top-menu">
+			<div class="container clearfix">
+				<a class="header__logo" href="#">
+					<img src="img/icons/mrtravel.png" alt="MR Travel logo">
+				</a>
+				<button id="navigation__button" class="cmn-toggle-switch cmn-toggle-switch__htx">
+					<span>toggle menu</span>
+				</button>
+				<nav class="header__nav">
+					<a href="#search">Accomodations</a>
+					<a href="#gallery">Events</a>
+					<a href="#filter-hotels">Destinations</a>
+					<a href="#faq">Trip Guides</a>
+					<a href="#contacts">About Us</a>
+				</nav>
+			</div>
+		</div>
+		<div class="header__wrapper">
+			<div class="container items-center">
+				<div class="header__title items-center">
+					WELCOME TO MR TRAVEL PLAY AND EXPLORER
+				</div>
+				<div class="header__search items-center">
+					<div class="header__search-icon">
+						<i class="fas fa-search"></i>
+					</div>
+					<input class="header__input" type="text" placeholder="Cari Lokasi">
+					<div class="header__search-button">go</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</header>
+	<section class="main-content p-t-55 p-b-45" id="search">
+		<div class="main__hotel-search container">
+			<h3 class="m-b-45">Buat sebuah agenda</h3>
+			<form class="hotel-search__form">
+				<div class="inner inner-destination">
+					<input class="hotel-search__destination" tabindex="1" type="text" placeholder="Select Destination">
+					<i class="fas fa-map-marker-alt"></i>
+				</div>
+				<div class="inner-dates">
+					<div class="inner">
+						<input class="hotel-search__date" tabindex="2" type="text" placeholder="From">
+						<i class="far fa-calendar"></i>
+					</div>
+					<div class="inner">
+						<input class="hotel-search__date" tabindex="3" type="text" placeholder="To">
+						<i class="far fa-calendar"></i>
+					</div>
+				</div>
+				<div class="inner inner-guests">
+					<input class="hotel-search__guests" tabindex="4" type="text" placeholder="Guests">
+					<i class="fas fa-users"></i>
+				</div>
+				<div class="hotel-search__check-button" tabindex="5">Check availability</div>
+			</form>
+		</div>
+		<div class="main__gallery container m-t-75 p-b-75" id="gallery">
+			<div class="row m-b-25">
+				<div class="col-12 col-md-4 col-lg-4 m-b-25">
+					<div class="gallery-item">
+						<a class="gallery-item__image" href="#">
+
+							<div class="gallery-item__image__hover" >
+								<i class="fas fa-share"></i><br>
+								<span class="gallery__hotel-name">Raja Ampat Beach</span><br>
+								<span class="gallery__country">Indonesia</span>
+							</div>
+
+							<img src="img/gallery/burj-khalifa-tower-dubai-1280x800.jpg" alt="Проект Apollo">
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 m-b-25">
+					<div class="gallery-item">
+						<a class="gallery-item__image" href="#">
+
+							<div class="gallery-item__image__hover" >
+								<i class="fas fa-share"></i><br>
+								<span class="gallery__hotel-name">Raja Ampat Beach</span><br>
+								<span class="gallery__country">Indonesia</span>
+							</div>
+
+							<img src="img/gallery/htdet.jpg" alt="Проект Apollo">
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 m-b-25">
+					<div class="gallery-item">
+						<a class="gallery-item__image" href="#">
+
+							<div class="gallery-item__image__hover" >
+								<i class="fas fa-share"></i><br>
+								<span class="gallery__hotel-name">Raja Ampat Beach</span><br>
+								<span class="gallery__country">Indonesia</span>
+							</div>
+
+							<img src="img/gallery/ewxcrvt.jpg" alt="Проект Apollo">
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-8 col-lg-8 m-b-25">
+					<div class="gallery-item gallery-item--big">
+						<a class="gallery-item__image gallery-item__image--big" href="#">
+
+							<div class="gallery-item__image__hover" >
+								<i class="fas fa-share"></i><br>
+								<span class="gallery__hotel-name">Raja Ampat Beach</span><br>
+								<span class="gallery__country">Indonesia</span>
+							</div>
+
+							<img src="img/gallery/beauty-of-venice-1280x800.jpg" alt="Проект Apollo">
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 m-b-25">
+					<div class="gallery-item">
+						<a class="gallery-item__image" href="#">
+
+							<div class="gallery-item__image__hover" >
+								<i class="fas fa-share"></i><br>
+								<span class="gallery__hotel-name">Raja Ampat Beach</span><br>
+								<span class="gallery__country">Indonesia</span>
+							</div>
+
+							<img src="img/gallery/manarola-italy-1280x960.jpg" alt="Проект Apollo">
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 m-b-25">
+					<div class="gallery-item">
+						<a class="gallery-item__image" href="#">
+
+							<div class="gallery-item__image__hover" >
+								<i class="fas fa-share"></i><br>
+								<span class="gallery__hotel-name">Raja Ampat Beach</span><br>
+								<span class="gallery__country">Indonesia</span>
+							</div>
+
+							<img src="img/gallery/amazing-eiffel-tower-paris-1280x720.jpg" alt="Проект Apollo">
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-8 col-lg-8 m-b-25">
+					<div class="gallery-item gallery-item--big">
+						<a class="gallery-item__image gallery-item__image--big" href="#">
+
+							<div class="gallery-item__image__hover" >
+								<i class="fas fa-share"></i><br>
+								<span class="gallery__hotel-name">Raja Ampat Beach</span><br>
+								<span class="gallery__country">Indonesia</span>
+							</div>
+
+							<img src="img/gallery/photo-1461703220177-c637914a6648.jpg" alt="Проект Apollo">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="gallery__bottom-button button">
+				Lihat Semua Destinasi
+			</div>
+		</div>
+
+		<div class="main__hotel-filter p-t-140" id="filter-hotels">
+			<div class="container">
+				<div class="filter__title">
+					<h2>Cari Tempat Beristirahat</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis id libero 
+		ut finibus. Nullam et tortor aliquam</p>
+				</div>
+				<div class="filter__menu">
+					<ul>
+						<li><span class="filter__menu-element filter__menu-element--active filter" id="filter-all" data-filter="all">Paling Dekat</span></li>
+						<li><span class="filter__menu-element filter" id="filter-popular" data-filter=".popular">Paling Popular</span></li>
+						<li><span class="filter__menu-element filter" id="filter-murah" data-filter=".murah">Paling Murah</span></li>
+					</ul>
+				</div>
+				<div class="row" id="hotel-filter">
+					<div class="filter-item col-md-6 mix popular">
+						<a href="#" class="filter-item__image">
+							<img src="img/filter/piscina-hotel-intertur-hawaii-ibiza.jpg" alt="">
+						</a>
+						
+						<div class="filter-item__desc">
+							<a class="filter-item__title-link" href="#"><h4>Hotel Samudera Aksara, Ciangsana, Sukabumi</h4></a>
+							<p class="filter-item__rooms">2 Orang / Ruangan</p>
+
+							<p class="filter-item__price">$200.00 Semalam</p>
+						</div>
+					</div>
+					<div class="filter-item col-md-6 mix murah">
+						<a href="#" class="filter-item__image">
+							<img src="img/filter/piscina-hotel-intertur-hawaii-ibiza.jpg" alt="">
+						</a>
+						
+						<div class="filter-item__desc">
+							<a class="filter-item__title-link" href="#"><h4>Hotel Samudera Aksara, Ciangsana, Sukabumi</h4></a>
+							<p class="filter-item__rooms">2 Orang / Ruangan</p>
+
+							<p class="filter-item__price">$200.00 Semalam</p>
+						</div>
+					</div>
+					<div class="filter-item col-md-6 mix murah">
+						<a href="#" class="filter-item__image">
+							<img src="img/filter/vacation-home.jpg" alt="">
+						</a>
+						
+						<div class="filter-item__desc">
+							<a class="filter-item__title-link" href="#"><h4>Penginapan Villa Pratama Nagrak, Sukabumi</h4></a>
+							<p class="filter-item__rooms">8 Orang</p>
+
+							<p class="filter-item__price">$550.00 Semalam</p>
+						</div>
+					</div>
+					<div class="filter-item col-md-6 mix murah">
+						<a href="#" class="filter-item__image">
+							<img src="img/filter/vacation-home.jpg" alt="">
+						</a>
+						
+						<div class="filter-item__desc">
+							<a class="filter-item__title-link" href="#"><h4>Penginapan Villa Pratama Nagrak, Sukabumi</h4></a>
+								<p class="filter-item__rooms">8 Orang</p>
+								
+								<p class="filter-item__price">$550.00 Semalam</p>
+						</div>
+					</div>
+					<div class="filter-item col-md-6 mix popular">
+						<a href="#" class="filter-item__image">
+							<img src="img/filter/noli-02-949x450.jpg" alt="">
+						</a>
+						
+						<div class="filter-item__desc">
+							<a class="filter-item__title-link" href="#"><h4>Saung Ngampar Tiada Tara Cikopak, Sukabumi</h4></a>
+								<p class="filter-item__rooms">12 Orang</p>
+								
+								<p class="filter-item__price">$400.00 Semalam</p>
+						</div>
+					</div>
+					<div class="filter-item col-md-6 mix murah">
+						<a href="#" class="filter-item__image">
+							<img src="img/filter/noli-02-949x450.jpg" alt="">
+						</a>
+						
+						<div class="filter-item__desc">
+							<a class="filter-item__title-link" href="#"><h4>Saung Ngampar Tiada Tara Cikopak, Sukabumi</h4></a>
+							<p class="filter-item__rooms">12 Orang</p>
+
+							<p class="filter-item__price">$400.00 Semalam</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="gallery__bottom-button button">
+				Lihat Semua Destinasi
+			</div>
+		</div>
+
+		<div class="main__other p-b-75" id="faq">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="other__item">
+							<h4 class="other__title">FAQ</h4>
+							<ul class="other__faq-list">
+								<li class="other__list-item"><a href="#">Cara Pembayaran</a></li>
+								<li class="other__list-item"><a href="#">Cabang Kami</a></li>
+								<li class="other__list-item"><a href="#">Cara Booking Hotel</a></li>
+								<li class="other__list-item"><a href="#">Privacy Policy</a></li>
+								<li class="other__list-item"><a href="#">Amankan Uangmu</a></li>
+								<li class="other__list-item"><a href="#">Perkiraan Cuaca</a></li>
+								<li class="other__list-item"><a href="#">Cara Melakukan Refund</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="other__item">
+							<h4 class="other__title">Newsletter</h4>
+							<p class="other__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis id libero ut finibus.</p>
+							<div class="other__item-newsletter-form">
+								<input type="text" placeholder="Enter your email">
+								<i class="fab fa-telegram-plane"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="other__item">
+							<h4 class="other__title">Interesting Fact</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis id libero ut finibus. Nullam et tortor aliquam quam dignissim ullamcorper. Fusce hendrerit urna diam.</p>
+
+							<div class="other__item_links">
+								<ul>
+									<li><a href="#">What's Happenning?</a></li>
+									<li><a href="#">Check Event Calendar</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer p-t-45 p-b-20" id="contacts">
+		<div class="container">
+			
+			<div class="footer__inner">
+				<div class="footer__logo">
+					<a href="#"><img src="img/icons/mr-travel.jpg" alt=""></a>
+				</div>
+				
+				<div class="footer__menu-block">
+					<div class="footer__menu-title">Wahana Bermain</div>
+					<ul>
+						<li class="footer__menu-item"><a href="#">Lepangan Golf</a></li>
+						<li class="footer__menu-item"><a href="#">Sepakbola & Futsal</a></li>
+						<li class="footer__menu-item"><a href="#">Kolam Renang</a></li>
+						<li class="footer__menu-item"><a href="#">Gor Olahraga</a></li>
+						<li class="footer__menu-item"><a href="#">Kebun Binatang</a></li>
+						<li class="footer__menu-item"><a href="#">Tempat Belajar Anak</a></li>
+					</ul>
+				</div>
+				<div class="footer__menu-block">
+					<div class="footer__menu-title">Destinasi Top</div>
+					<ul>
+						<li class="footer__menu-item"><a href="#">Bunaken Beach</a></li>
+						<li class="footer__menu-item"><a href="#">Raja Ampat Papua</a></li>
+						<li class="footer__menu-item"><a href="#">Pantai Kuta Bali</a></li>
+						<li class="footer__menu-item"><a href="#">Candi Borobudur</a></li>
+						<li class="footer__menu-item"><a href="#">Monumen Nasional</a></li>
+						<li class="footer__menu-item"><a href="#">Taman Mini Indonesia Indah</a></li>
+					</ul>
+				</div>
+				<div class="footer__menu-block">
+					<div class="footer__menu-title">Customer Service</div>
+					<ul>
+						<li class="footer__menu-item"><a href="#">0266-0505-1998</a></li>
+						<li class="footer__menu-item"><a href="#">Info@MRTravel.com</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__line m-t-45"></div>
+		
+			<div class="footer__info">
+
+			<div class="footer__copyright">&copy; MR Travel 2016. All right reserved.</div>
+
+			<div class="footer__social-icons">
+				<a href="#"><i class="fab fa-facebook-square"></i></a>
+				<a href="#"><i class="fab fa-twitter-square"></i></a>
+			</div>
+		</div>	
+		</div>
+	</footer>
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/page-scroll-to-id/jquery.malihu.PageScroll2id.js"></script>
+	<script src="js/navigation.js"></script>
+	<script src="lib/mixitip3/mixitup.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

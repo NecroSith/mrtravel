@@ -1,0 +1,40 @@
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: "Proxima Nova Regular";
+	// background-color: #fdf8f9;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix {
+	clear: both;
+
+	&:before, &:after {
+		display: table;
+		content: "";
+		clear: both;
+	}
+}
+
+.items-center {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.main-content {
+	background-color: #fdf8f9;
+	position: relative;
+}

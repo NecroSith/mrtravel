@@ -1,0 +1,229 @@
+.main__hotel-search {
+
+	h3 {
+		font-family: 'Proxima Nova Semibold';
+		text-transform: uppercase;
+		font-size: 18px;
+		line-height: 19px;
+		text-align: center;
+		color: #626161;
+		letter-spacing: 0.45px;
+	}
+
+
+	input {
+		height: 48px;
+		padding-top: 19px;
+		padding-bottom: 19px;
+		padding-left: 19px;
+		color: #626161;
+		font-family: "Proxima Nova Regular";
+		font-size: 14px;
+		letter-spacing: 0.35px;
+		border: 1px solid transparent;
+		transition: border 0.1s ease-in;
+		box-shadow: 0px 0px 20px 0px rgba(247, 111, 141, 0.15);
+
+		&:focus {
+			outline: none;
+			border: 1px solid rgb(240, 74, 111);
+			transition: border 0.1s ease-in
+		}
+
+	}
+}
+
+
+.hotel-search__form {
+	display: flex;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+
+	@media (min-width: 768px) {
+		justify-content: space-between;
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+		-ms-flex-direction: row;
+		-o-flex-direction: row;
+		flex-direction: row;
+	}
+}
+
+.hotel-search__destination {
+	width: 330px;
+	
+	@media (min-width: 768px) {
+		width: auto;
+	}
+
+	@media (min-width: 992px) {
+		width: 220px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 267px;
+	}
+}
+
+.hotel-search__guests {
+	width: 330px;
+	margin-right: auto;
+	margin-left: auto;
+
+	input {
+		width: 330px;
+	}
+
+	@media (min-width: 768px) {
+		width: 100px;
+	}
+
+	@media (min-width: 992px) {
+		width: 110px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 144px;
+	}
+}
+
+.hotel-search__date {
+	width: 155px;
+
+	@media (min-width: 768px) {
+		width: 100px;
+	}
+
+	@media (min-width: 992px) {
+		width: 115px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 144px;
+	}
+}
+
+.hotel-search__check-button {
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	width: 330px;
+	height: 48px;
+	box-shadow: 0 0 20px rgba(247, 111, 141, 0.15);
+	background-color: #f76f8d;
+	color: #ffffff;
+	font-family: "Proxima Nova Semibold";
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 19px 15px;
+	text-align: center;
+	line-height: 1;
+	transition: all 0.2s ease-in;
+	box-shadow: 0px 0px 20px 0px rgba(247, 111, 141, 0.15);
+
+	&:hover {
+		background-color: rgb(240, 74, 111);
+		transition: all 0.2s ease-in;
+		outline: none;
+	}
+
+	@media (min-width: 768px) {
+		margin: 0;
+		width: 135px;
+		font-size: 13px;
+		letter-spacing: 0.2px;
+		padding: 13px 20px;
+	}
+
+	@media (min-width: 992px) {
+		width: 199px;
+		font-size: 14px;
+		letter-spacing: 0.6px;
+		padding: 19px 25px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 199px;
+	}
+}
+
+
+.fa-calendar, .fa-map-marker-alt, .fa-users {
+	color: #999999;
+	position: absolute;
+	font-size: 14px;
+	top: 16px;
+	right: 10px;
+}
+
+.fa-calendar {
+	font-size: 14px;
+}
+
+.fa-map-marker-alt {
+	font-size: 13px;
+}
+
+.inner {
+	position: relative;
+	margin-bottom: 20px;
+
+	@media (min-width: 768px) {
+		margin-bottom: 0;
+	}
+}
+
+.inner-dates {
+	margin-right: auto;
+	margin-left: auto;
+	width: 330px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+
+	@media (min-width: 768px) {
+		margin: 0;
+		width: 240px;
+		justify-content: space-around;
+	}
+
+	@media (min-width: 992px) {
+		width: 270px;
+		justify-content: space-between;
+	}
+
+	@media (min-width: 1200px) {
+		width: 325px;
+		justify-content: space-between;
+	}
+	
+}
+
+.inner-destination {
+	width: 330px;
+	margin-right: auto;
+	margin-left: auto;
+
+	@media (min-width: 768px) {
+		margin: 0;
+		width: unset;
+	}
+}
+
+.inner-guests {
+	width: 330px;
+	margin-right: auto;
+	margin-left: auto;
+
+	@media (min-width: 768px) {
+		margin: 0;
+		width: unset;
+	}	
+}

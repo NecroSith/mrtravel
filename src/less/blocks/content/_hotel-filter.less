@@ -1,0 +1,175 @@
+.main__hotel-filter {
+	background-color: #fff;
+	position: relative;
+	padding-bottom: 43px;
+}
+
+.filter__menu {
+	text-align: center;
+	margin-bottom: 79px;
+
+	li {
+		cursor: pointer;
+		// display: inline-block;
+		list-style-type: none;
+		display: block;
+
+		@media (min-width: 768px) {
+			display: inline-block;
+			margin-right: 0;
+		}
+		
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.filter__menu-element {
+	display: inline-block;
+	color: #cccccc;
+	font-family: "Proxima Nova Light";
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	margin-right: 0;
+	padding-left: 52px;
+	padding-right: 53px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	transition: all 0.2s ease-in;
+	
+
+	&:hover {
+		color: #f76f8d;
+		transition: all 0.2s ease-in;
+	}
+
+	@media (min-width: 768px) {
+		// margin-right: 96px;
+
+	}
+	
+}
+
+.filter__menu-element--active {
+	margin-right: 0;
+	box-shadow: 0 0 20px rgba(247, 111, 141, 0.15);
+	padding-left: 52px;
+	padding-right: 53px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	border-radius: 60px;
+	color: #f76f8d;
+
+	@media (min-width: 768px) {
+		// margin-right: 43px;
+	}
+}
+
+.filter__title {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 16px;
+	font-family: "Proxima Nova Light";
+	margin-bottom: 30px;
+
+	h2 {
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		margin-bottom: 21px;
+	}
+
+	p {
+		color: #cccccc;
+	}
+
+	@media (min-width: 768px) {
+		width: 656px;
+		font-size: 18px;
+		margin-bottom: 53px;
+	}
+
+}
+
+.filter-item {
+	margin-bottom: 26px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.filter-item__image {
+	margin-right: 22px;
+}
+.filter-item__desc {
+	max-width: 230px;
+	padding-top: 22px;
+
+	h4 {
+		font-size: 16px;
+		margin-bottom: 20px;
+		letter-spacing: 0.8px;
+
+		@media (min-width: 768px) {
+			font-size: 14px;
+			margin-bottom: 15px;
+		}
+
+		@media (min-width: 992px) {
+			font-size: 16px;
+			margin-bottom: 20px;
+			letter-spacing: 0.8px;
+		}
+	}
+
+	p {
+		
+		letter-spacing: 0.7px;
+
+		&:last-child {
+			margin-bottom: 0;
+			letter-spacing: 0.9px;
+		}
+
+		@media (min-width: 992px) {
+			margin-bottom: 42px;
+			letter-spacing: 0.8px;
+		}
+	}
+
+	@media (min-width: 768px) {
+		padding-top: 0;
+	}
+}
+
+.filter-item__title-link {
+	color: #000;
+
+	&:hover {
+		color: #f76f8d;
+	}
+}
+
+.filter-item__rooms {
+	font-size: 12px;
+	margin-bottom: 10px;
+
+	@media (min-width: 992px) {
+		font-size: 14px;
+	}
+
+}
+
+.filter-item__price {
+	font-size: 16px;
+	color: #f76f8d;
+	font-family: 'Proxima Nova Italic';
+	letter-spacing: 0.8px;
+	line-height: 30px;
+	font-weight: 400;
+}

@@ -1,0 +1,205 @@
+.main__gallery {
+	position: relative;
+}
+
+.gallery-item {
+	width: 330px;
+	margin-right: auto;
+	margin-left: auto;
+  	box-shadow: 7.5px 12.99px 15px 0px rgba(189, 10, 170, 0.15);
+
+  	@media (min-width: 768px) {
+  		width: 210px;
+  		margin: 0;
+  	}
+
+  	@media (min-width: 992px) {
+  		width: 290px;
+  		margin: 0;
+  	}
+
+  	@media (min-width: 1200px) {
+  		width: 330px;
+  		margin: 0;
+  	}
+
+
+
+}
+
+.gallery-item--big {
+	width: 330px;
+	
+	@media (min-width: 768px) {
+  		width: 450px;
+  		margin: 0;
+  	}
+
+	@media (min-width: 992px) {
+		width: 100%;
+  		max-width: 700px;
+  		margin: 0;
+  	}
+}
+
+.gallery-item__image {
+	overflow: hidden;
+	// min-height: 190px;
+	position: relative;
+	display: block;
+}
+
+.gallery-item__image img {
+	// height: 100%;
+	display: block;
+	width: 330px;
+	
+	@media (min-width: 768px) {
+  		width: 210px;
+  	}
+
+	@media (min-width: 992px) {
+  		width: 290px;
+  	}
+
+	@media (min-width: 1200px) {
+  		width: 330px;
+  	}
+}
+
+.gallery-item__image--big img {
+	display: block;
+	// max-width: 330px;
+	width: auto;
+	height: 330px;
+
+	@media (min-width: 768px) {
+		height: unset;
+  		max-width: 450px;
+  		width: 100%;
+  	}
+
+	@media (min-width: 992px) {
+		height: unset;
+  		max-width: 610px;
+  		width: 100%;
+  	}
+
+	@media (min-width: 1200px) {
+  		max-width: 714px;
+  		width: 100%;
+  	}
+}
+
+.gallery-item__image:hover .gallery-item__image__hover {
+	cursor: pointer;
+	display: block;
+	top: 0;
+}
+
+.gallery-item__image__hover {
+	position: absolute;
+	top: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	font-size: 26px;
+	color: #ffffff;
+	display: block;
+
+	transition: top 0.4s ease-out;
+
+	// background-color: rgba(0, 82, 194, 0.9);
+	background-color: rgba(240, 74, 111, 0.7);
+
+	.fas {
+		font-size: 40px;
+		margin-bottom: 15px;
+		position: absolute;
+		top: 33%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+
+		@media (min-width: 768px) {
+			font-size: 50px;
+			display: none;
+		}
+
+		@media (min-width: 992px) {
+			font-size: 50px;
+			display: block;
+		}
+
+		@media (min-width: 1200px) {
+			top: 40%;
+			display: block;
+			font-size: 40px;
+			position: static;
+			transform: translate(0%, 0%);
+			margin-top: 110px;
+		}
+	}
+
+	span {
+		display: inline-block;
+
+		@media (min-width: 768px) {
+			display: inline-block;
+		}
+
+	}
+}
+
+.gallery__hotel-name {
+	margin-top: 130px;
+	color: #ffffff;
+	font-family: "Proxima Nova Semibold";
+	font-size: 24px;
+	letter-spacing: 1.2px;
+
+	@media (min-width: 768px) {
+		margin-top: 15px;
+		// margin-top: 0;
+	}
+
+	@media (min-width: 992px) {
+		margin-top: 112px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 100%;
+		margin-top: 0;
+		position: absolute;
+		right: 50%;
+		top: 50%;
+		transform: translate(50%, 0);
+	}
+}
+
+.gallery__country {
+	padding: 0;
+	margin: 0;
+	font-family: "Proxima Nova Light";
+	font-weight: 300;
+	letter-spacing: 1.2px;
+	font-size: 24px;
+
+	@media (min-width: 1200px) {
+		position: absolute;
+		right: 50%;
+		top: 60%;
+		transform: translate(50%, 0);
+	}
+}
+
+.gallery__bottom-button {
+	position: absolute;
+	left: 50%;
+	bottom: -25px;
+	transform: translate(-50%, 0);
+	width: 250px;
+	height: 50px;
+	box-shadow: 8px 13px 15px rgba(189, 10, 170, 0.15);
+}
+

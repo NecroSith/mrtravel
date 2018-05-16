@@ -1,0 +1,61 @@
+{
+  "_from": "page-scroll-to-id",
+  "_id": "page-scroll-to-id@1.5.8",
+  "_inBundle": false,
+  "_integrity": "sha1-9sOa1L7wZdN5TqTxrxas2cN5pH0=",
+  "_location": "/page-scroll-to-id",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "page-scroll-to-id",
+    "name": "page-scroll-to-id",
+    "escapedName": "page-scroll-to-id",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/page-scroll-to-id/-/page-scroll-to-id-1.5.8.tgz",
+  "_shasum": "f6c39ad4bef065d3794ea4f1af16acd9c379a47d",
+  "_spec": "page-scroll-to-id",
+  "_where": "C:\\Users\\NecroSith\\YandexDisk\\HTML_projects\\Apollo_10-18_Пустынный",
+  "author": {
+    "name": "malihu",
+    "url": "http://manos.malihu.gr"
+  },
+  "bugs": {
+    "url": "https://github.com/malihu/page-scroll-to-id/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Easy-to-use jQuery plugin that enables animated page scrolling to specific id within the document. The plugin replaces the default browser behaviour of jumping to page sections when links with href value containing hash are clicked, by smoothly animating the page to those sections.",
+  "files": [
+    "jquery.malihu.PageScroll2id.js",
+    "readme.md"
+  ],
+  "homepage": "http://manos.malihu.gr/page-scroll-to-id/",
+  "jam": {
+    "dependencies": {
+      "jquery": ">=1.7"
+    }
+  },
+  "keywords": [
+    "jquery-plugin",
+    "page-scrolling",
+    "page-animation",
+    "navigation",
+    "single-page-navigation"
+  ],
+  "license": "MIT",
+  "main": "jquery.malihu.PageScroll2id.js",
+  "name": "page-scroll-to-id",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malihu/page-scroll-to-id.git"
+  },
+  "version": "1.5.8"
+}
